@@ -759,7 +759,7 @@ define(["require"], function (require) {
 
                     for (ref_index in cite["REFS"]) {
                         var refs = cite["REFS"][ref_index]
-                        references += "<a href=#ref-" + refs + ">[^]</a>"
+                        references += "<a href=\"#ref-" + refs + "\">[^]</a>"
                     }
                     references += "</sup>"
                 }
